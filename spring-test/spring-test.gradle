@@ -37,7 +37,7 @@ dependencies {
 	optional("org.apache.taglibs:taglibs-standard-jstlel:1.2.5") {
 		exclude group: "org.apache.taglibs", module: "taglibs-standard-spec"
 	}
-	optional("net.sourceforge.htmlunit:htmlunit:2.32") {
+	optional("net.sourceforge.htmlunit:htmlunit:2.33") {
 		exclude group: "commons-logging", module: "commons-logging"
 	}
 	optional("org.seleniumhq.selenium:htmlunit-driver:2.32.1") {
@@ -61,7 +61,7 @@ dependencies {
 	testCompile("javax.interceptor:javax.interceptor-api:1.2.2")
 	testCompile("javax.mail:javax.mail-api:1.6.2")
 	testCompile("org.hibernate:hibernate-core:5.2.17.Final")
-	testCompile("org.hibernate:hibernate-validator:6.0.12.Final")
+	testCompile("org.hibernate:hibernate-validator:6.0.13.Final")
 	// Enable use of the JUnit Platform Runner
 	testCompile("org.junit.platform:junit-platform-runner")
 	testCompile("org.junit.jupiter:junit-jupiter-params")
